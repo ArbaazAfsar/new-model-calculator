@@ -1,0 +1,38 @@
+.calc{
+    width: 400px;
+    height: 600px;
+    background-color: gray;
+    margin:auto ;
+    border: 3px solid rgb(54, 51, 51);
+}
+
+#screen{
+    width: 85%;
+    height: 50px;
+    margin: 25px ;
+    pointer-events: none;
+    border: 2px solid black;
+}
+
+.keypad{
+    display: flex;
+
+   background-color: rgb(18, 20, 21);
+   width: 350px;
+   padding: 10px;
+
+}
+
+.button{
+    background-color: black;
+}
+
+.btn{
+    width: 49px;
+    height: 64px;
+    margin: 14px;
+    margin-left: 30px;
+    border: 2px solid rgb(47, 45, 45);
+
+}
+
